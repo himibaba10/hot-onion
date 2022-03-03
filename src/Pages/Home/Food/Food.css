@@ -1,0 +1,46 @@
+.food {
+  text-align: center;
+  padding: 20px 30px;
+  transition: box-shadow 0.3s linear;
+}
+
+.food:hover {
+  box-shadow: 0px 0px 20px lightgrey;
+}
+
+.food .food-img-container {
+  margin-bottom: 15px;
+}
+
+.food .food-img-container img {
+  max-width: 300px;
+}
+
+.food h1 {
+  font-size: 19px;
+}
+
+.food p {
+  font-size: 15px;
+  margin: 7px 0;
+  color: grey;
+}
+
+.food h5 {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 500px) {
+  .food {
+    padding: 20px 10px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .food {
+    max-width: 99%;
+  }
+  .food .food-img-container img {
+    max-width: 250px;
+  }
+}

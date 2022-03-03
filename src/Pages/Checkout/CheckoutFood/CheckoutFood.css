@@ -1,0 +1,37 @@
+.checkout-food {
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  width: 400px;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 7px 0;
+}
+
+.checkout-food-img-container {
+  flex-basis: 25%;
+}
+
+.checkout-food-img-container img {
+  width: 110px;
+}
+
+.checkout-food-detail {
+  flex-basis: 60%;
+}
+
+.checkout-food-quantity {
+  flex-basis: 5%;
+}
+
+.checkout-food-detail h3{
+  color: var(--primary-color-1)
+}
+
+@media only screen and (max-width: 400px) {
+  .checkout-food {
+    width: 95%;
+    margin: auto;
+  }
+}

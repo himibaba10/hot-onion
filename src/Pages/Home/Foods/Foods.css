@@ -1,0 +1,73 @@
+.foods {
+  margin: 40px 0;
+}
+
+.foods .filter-foods {
+  text-align: center;
+}
+
+.foods .filter-foods a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  margin: 0 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.foods .filter-foods a::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  width: 0%;
+  height: 2px;
+  background-color: grey;
+  transition: width 0.3s linear;
+}
+
+.foods .filter-foods a:hover::after {
+  width: 100%;
+}
+
+.foods .filter-foods a:focus::after {
+  width: 100%;
+}
+
+.food-container {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-gap: 20px;
+}
+
+.food-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.checkout-btn {
+  cursor: pointer;
+  align-items: center;
+  display: block;
+  margin: 30px auto;
+  padding: 13px 45px;
+  border: none;
+  background: grey;
+  color: white;
+  border-radius: 5px;
+}
+
+.foods a,
+.cart a {
+  text-decoration: none;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 556px) {
+  .food-container {
+    margin: 20px 0;
+  }
+}

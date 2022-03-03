@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Eggs Benedict",
+    "imageURL": "https://i.ibb.co/YPtmfYM/breakfast1.png",
+    "price": "8.99",
+    "category": "breakfast"
+  },
+  {
+    "name": "Breakfast Sandwitch",
+    "imageURL": "https://i.ibb.co/9bd1ZPt/breakfast2.png",
+    "price": "9.99",
+    "category": "breakfast"
+  },
+  {
+    "name": "Baked Chicken",
+    "imageURL": "https://i.ibb.co/7WDZBZr/breakfast3.png",
+    "price": "10.99",
+    "category": "breakfast"
+  },
+  {
+    "name": "Bagel And Cream Cheese",
+    "imageURL": "https://i.ibb.co/s9DyVjW/breakfast4.png",
+    "price": "6.99",
+    "category": "breakfast"
+  },
+  {
+    "name": "Full Breakfast Fried Egg Toast Brunch",
+    "imageURL": "https://i.ibb.co/HVN9trG/breakfast5.png",
+    "price": "3.99",
+    "category": "breakfast"
+  },
+  {
+    "name": "Toast Croissant Fried Egg",
+    "imageURL": "https://i.ibb.co/TTyRZf9/breakfast6.png",
+    "price": "19.99",
+    "category": "breakfast"
+  },
+  {
+    "name": "Beef Steak",
+    "imageURL": "https://i.ibb.co/bWkCpKF/lunch1.png",
+    "price": "15.99",
+    "category": "lunch"
+  },
+  {
+    "name": "Salmon with Peppers",
+    "imageURL": "https://i.ibb.co/TmYrRDw/lunch2.png",
+    "price": "7.99",
+    "category": "lunch"
+  },
+  {
+    "name": "Tarragon Rubbed Salmon",
+    "imageURL": "https://i.ibb.co/4JxM84F/lunch3.png",
+    "price": "6.99",
+    "category": "lunch"
+  },
+  {
+    "name": "India Lunch",
+    "imageURL": "https://i.ibb.co/XVVBbH6/lunch4.png",
+    "price": "8.99",
+    "category": "lunch"
+  },
+  {
+    "name": "Fried Chicken Bento",
+    "imageURL": "https://i.ibb.co/KFcW98C/lunch5.png",
+    "price": "9.99",
+    "category": "lunch"
+  },
+  {
+    "name": "healthy Meal Plan",
+    "imageURL": "https://i.ibb.co/P4Nt2mZ/lunch6.png",
+    "price": "23.99",
+    "category": "lunch"
+  }
+]

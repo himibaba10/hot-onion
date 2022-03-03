@@ -1,0 +1,11 @@
+.shop-img-container {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../../../images/shop.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  font-size: 35px;
+  font-family: poppins, sans-serif;
+  text-align: center;
+  padding: 150px 0;
+  margin-bottom: 30px;
+}

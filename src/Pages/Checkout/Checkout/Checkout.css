@@ -1,0 +1,96 @@
+.checkout {
+  display: flex;
+  margin: 50px 0;
+}
+
+.checkout-form {
+  flex-basis: 60%;
+  width: 90%;
+}
+
+.checkout-form hr {
+  border: 1px solid #b4b4b4;
+  margin: 10px 0 30px;
+  width: 100%;
+}
+
+.checkout-form form {
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.checkout-form form input {
+  font-family: roboto, arial, helvet;
+  width: 100%;
+  margin: 0 auto 15px;
+  display: block;
+  padding: 15px;
+  background: #eeeeee;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.3s linear;
+}
+
+.checkout-form form input:focus {
+  outline: 2px solid grey;
+}
+
+#checkout-btn {
+  background-color: var(--primary-color-1);
+  color: white;
+}
+
+.checkout-cart h4,
+.checkout-cart p {
+  margin-bottom: 10px;
+}
+
+.checkout-price-container table {
+  margin-top: 15px;
+  padding: 0 10px;
+  width: 100%;
+  font-family: roboto;
+}
+
+.checkout-price-container table tr td {
+  padding: 4px 0;
+}
+
+.checkout-price-container table tr td:nth-child(2) {
+  text-align: right;
+}
+
+.place-order-btn {
+  background-color: var(--primary-color-1);
+  color: white;
+  width: 100%;
+  margin: 10px auto 15px;
+  display: block;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .checkout {
+    flex-direction: column;
+    align-items: center;
+  }
+  .checkout-form {
+    flex-basis: auto;
+    text-align: center;
+  }
+  .checkout-form form{
+    margin: auto
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .checkout-form form {
+    min-width: 200px;
+  }
+  .checkout-cart {
+    padding: 0 10px;
+    width: 100%;
+  }
+}
